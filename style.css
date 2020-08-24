@@ -1,0 +1,42 @@
+/*
+    Tutorial Videos
+    https://www.youtube.com/watch?v=gNA6HKRWAI0
+    https://www.youtube.com/watch?v=zlKXZiWE1XI
+*/
+
+body {
+    height: 100vh;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    font-family: monospace;
+    background: #222222;
+}
+
+#score-board {
+    display: flex;
+    justify-content: space-between;
+
+    width: 800px;
+    
+    font-size: 40px;
+    color: rgb(160, 255, 51);
+}
+
+#player-1, #player-2 {
+    text-align: center;
+}
+#score-board label {
+    color: rgb(209, 209, 209);
+}
+
+
+/* Canvas */
+#canvas {
+    height: 70vh;
+    background: rgb(65, 65, 65);
+}
